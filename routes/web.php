@@ -14,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [PageController::class, 'index'])->name('index'); // Route index
+Route::get('/', [PageController::class, 'index'])->name('index'); // Route index 
 Route::get('/portfolio', [PageController::class, 'portfolio'])->name('index.portfolio'); // Route portfolio dengan nama 'index.portfolio'
 
